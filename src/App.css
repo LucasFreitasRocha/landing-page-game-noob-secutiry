@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+* {
+  color: rgb(0, 0, 0);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 80vw;
+  height: 80vh;
+  background: #ffffff;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.computer,
+.mobile {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 10px;
+}
+.icon-computer,
+.icon-mobile {
+  height: 10em;
+  width: 10em;
+}
+
+.background {
+  background-image: url("../public/noobSecurityBG.png");
+  background-size: cover; /* ajusta a imagem para cobrir o elemento */
+  background-position: center; /* centraliza a imagem */
+  background-repeat: no-repeat; /* evita que a imagem se repita */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
+@media (max-width: 768px) {
+  .background {
+    background-image: unset;
+    background-color: black;
+    background-size: cover; /* ajusta a imagem para cobrir o elemento */
+    background-position: center; /* centraliza a imagem */
+    background-repeat: no-repeat; /* evita que a imagem se repita */
+    width: 100vw;
+    height: 100vh;
+  }
+  .container {
+    width: 80vw;
+    height: 80vh;
+    background: #ffffff;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .icon-computer,
+  .icon-mobile {
+    height: 10em;
+    width: 10em;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  /* regras de estilo*/
 }
