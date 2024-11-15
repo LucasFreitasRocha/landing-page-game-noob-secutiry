@@ -8,7 +8,7 @@ function HowToInstall() {
       <div className="computer">
         <FaLaptop className="icon-computer" />
         <p>para baixar a versão para computador</p>
-        <a href="https://github.com/tcc-Iago-Lucas/game/releases/download/v_1.0.0_wapi_pc/NoobSecurity.zip" >clique aqui</a>
+        <a className="btn" href="https://github.com/tcc-Iago-Lucas/game/releases/download/v_1.0.0_wapi_pc/NoobSecurity.zip" >clique aqui</a>
         <div >
           <p>Para instalar para computador (windows) é so seguir esses passos:</p>
           <Step title="passo 1" text="Baixe a versão para computador" srcImg="/install/computer/step_1.png" altImg="imagem que clica no link para baixar" />
@@ -22,10 +22,11 @@ function HowToInstall() {
       <div className="mobile">
         <FaMobileAlt className='icon-mobile' />
         <p>para baixar a versão para celular</p>
-        <a href="https://github.com/tcc-Iago-Lucas/game/releases/download/v_1.0.0_wapi/NoobSecurity.apk" >clique aqui</a>
+        <a className="btn" href="https://github.com/tcc-Iago-Lucas/game/releases/download/v_1.0.0_wapi/NoobSecurity.apk" >clique aqui</a>
         <div>
           <p>Para instalar para celular (android) é so seguir esses passos:</p>
-          <Step title="passo 1 download apk" text="Baixe a versão para andriod" srcImg="/install/mobile/step_download_mobile.png" altImg="imagem que clica no link para baixar" />
+          <Step title="passo 1 download jogo" text="Baixe a versão para andriod" srcImg="/install/mobile/download_mobile.png" altImg="imagem que clica no link para baixar" />
+          <Step title=" " text=" " srcImg="/install/mobile/step_download_mobile.png" altImg="imagem que clica no link para baixar" />
           <Step title="passo 2 permissão" text="Verificar se tem permissão de instalar app de terceiros na finalizaçao do download" srcImg="/install/mobile/step_permission_1.png"
             altImg="permissão de instalação" />
           <Step title="passo 2.1 permissão" text="Ou ir nas configurações do celular e pesquisar 'fontes desconhecidas'" srcImg="/install/mobile/Step_config_permission_1.png"

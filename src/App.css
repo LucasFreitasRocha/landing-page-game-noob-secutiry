@@ -24,6 +24,32 @@ p {
   min-width: 80%;
 }
 
+.btn {
+      display: inline-block; /* Permite usar largura e altura */
+      padding: 10px 20px; /* Espaçamento interno */
+      font-size: 16px; /* Tamanho da fonte */
+      font-weight: bold; /* Fonte em negrito */
+      text-align: center; /* Centraliza o texto */
+      text-decoration: none; /* Remove o sublinhado */
+      color: #ffffff; /* Cor do texto */
+      background-color: #007BFF; /* Cor de fundo do botão */
+      border-radius: 5px; /* Bordas arredondadas */
+      border: 2px solid transparent; /* Borda inicial */
+      transition: all 0.3s ease; /* Suaviza as mudanças */
+    }
+
+    /* Estilo ao passar o mouse */
+    .btn:hover {
+      background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+      border-color: #ffffff; /* Adiciona uma borda visível */
+    }
+
+    /* Adicionando um estado ativo */
+    .btn:active {
+      background-color: #004085; /* Cor ainda mais escura ao clicar */
+      transform: scale(0.98); /* Pequena redução no tamanho para simular o clique */
+    }
+
 .background {
   background-image: url("../public/noobSecurityBG.png");
   background-size: contain; /* ajusta a imagem para cobrir o elemento */
