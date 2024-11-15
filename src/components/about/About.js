@@ -14,7 +14,7 @@ function About() {
         propostas como desafio.
       </p>
       <p>
-        Este jogo foi um trabalho de conclusão de curso dos alunos Iago Dias Martins Rangel e o Lucas Freitas Da Rocha.
+        Este jogo foi um trabalho de conclusão de curso (TCC) dos alunos Iago Dias Martins Rangel e o <a href="https://www.linkedin.com/in/devrocha" target="_blank">Lucas Freitas Da Rocha</a>.
       </p>
     </div>
   )
