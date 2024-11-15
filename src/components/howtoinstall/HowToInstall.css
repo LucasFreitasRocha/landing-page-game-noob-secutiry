@@ -44,6 +44,10 @@
     max-width: 100% !important;
   }
 
+  .computer {
+    display: none;
+  }
+
   .icon-computer,
   .icon-mobile {
     height: 10em;
