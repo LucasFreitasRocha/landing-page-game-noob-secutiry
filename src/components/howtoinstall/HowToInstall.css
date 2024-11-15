@@ -1,0 +1,60 @@
+.howToInstall {
+  display: flex;
+  justify-content: space-around;
+}
+
+.computer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin: 10px;
+  max-width: 50%;
+}
+
+.mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin: 10px;
+  max-width: 50%;
+}
+
+.icon-computer,
+.icon-mobile {
+  height: 10em;
+  width: 10em;
+}
+.computer,
+.mobile img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+
+@media (max-width: 768px) {
+  .howToInstall {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .icon-computer,
+  .icon-mobile {
+    height: 10em;
+    width: 10em;
+  }
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+
+  /* regras de estilo*/
+}
